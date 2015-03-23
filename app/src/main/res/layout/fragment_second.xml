@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.perso.fab.myfirstapp.main.SecondFragment"
+    android:background="@color/dark_green"
+    android:id="@+id/second_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/first_fragment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First fragment clicked display its detail."
+        android:textColor="@color/light_green" />
+
+    <ImageView
+        android:id="@+id/imageViewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

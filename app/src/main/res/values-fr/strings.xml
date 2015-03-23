@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ma Premiere App</string>
+    <string name="action_settings">Configuration</string>
+    <string name="edit_message">Entrez un message</string>
+    <string name="button_send">Envoyer</string>
+    <string name="title_activity_display_message">Mon Message</string>
+
+    <string name="hello_world">Allo, non mais allo le monde!</string>
+    <string name="action_search">Rechercher</string>
+
+    <string name="title_activity_search">Activite de Recherche</string>
+
+    <string name="button_replace">Remplacer</string>
+
+    <string name="action_fragment">Exemple de Fragments</string>
+
+    <string-array name="activity_array">
+        <item>Activité de Fragments</item>
+    </string-array>
+
+</resources>

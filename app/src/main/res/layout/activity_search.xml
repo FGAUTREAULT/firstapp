@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.perso.fab.myfirstapp.search.SearchActivity"
+    android:background="@color/dark_green">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="?attr/actionBarSize"
+        android:background="@color/dark_green">
+
+        <TextView
+            android:text="@string/title_activity_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_green" />
+
+        <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/listviewSearch"
+            android:paddingTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/undobar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="20dp"
+        android:alpha="100"
+        android:background="#808080"
+        android:dividerPadding="11dp"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/undobar_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item deleted... "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/undobar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:onClick="onClick"
+            android:background="#808080"
+            android:drawableLeft="@drawable/ic_action_undo"
+            android:text="Undo"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</FrameLayout>
